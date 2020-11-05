@@ -1,7 +1,5 @@
-Building a site with styled components.
+# Building a site with styled components.
 
 ## Available Scripts
 
-### `yarn start`
-
-
+### ```yarn start```

@@ -1,5 +1,12 @@
+import { BrowserRouter as Router } from 'react-router-dom'
+import Home from './pages'
+
 const App = () => {
-  return <div className='App'>App!</div>
+  return (
+    <Router>
+      <Home />
+    </Router>
+  )
 }
 
 export default App
