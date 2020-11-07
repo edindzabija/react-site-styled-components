@@ -44,9 +44,9 @@ export const homeObjTwo = {
 
 export const homeObjThree = {
   id: 'contact',
-  lightBg: false,
-  lightText: true,
-  lightTextDesc: true,
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
   topLine: 'Premium Shit',
   headline: 'Unlimited Transactions with zero fees',
   description: `Lorem ipsum dolor,
@@ -57,7 +57,7 @@ export const homeObjThree = {
   imgStart: false,
   img: image3,
   alt: 'Car',
-  dark: true,
-  primary: true,
-  darkText: false,
+  dark: false,
+  primary: false,
+  darkText: true,
 }
