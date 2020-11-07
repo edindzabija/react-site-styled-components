@@ -5,7 +5,7 @@ export const InfoContainer = styled.div`
   background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#010606')};
 
   @media screen and (max-width: 768px) {
-    padding: 100px 0;
+    padding: 100px 24;
   }
 `
 
@@ -17,7 +17,6 @@ export const InfoWrapper = styled.div`
   max-width: 1100px;
   margin-right: auto;
   margin-left: auto;
-  padding: 0 24px;
   justify-content: center;
 `
 
@@ -68,7 +67,7 @@ export const Heading = styled.h1`
   font-weight: 600;
   color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#010606')};
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 720px) {
     font-size: 32px;
   }
 `
