@@ -1,4 +1,5 @@
 import React from 'react'
+import { animateScroll as scroll } from 'react-scroll'
 import {
   FaFacebook,
   FaInstagram,
@@ -23,6 +24,10 @@ import {
 } from './FooterElements'
 
 const Footer = () => {
+  const toggleHome = () => {
+    scroll.scrollToTop()
+  }
+
   return (
     <FooterContainer>
       <FooterWrap>
@@ -66,7 +71,9 @@ const Footer = () => {
         </FooterLinksContainer>
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo>LOLEX</SocialLogo>
+            <SocialLogo to='/' onClick={toggleHome}>
+              LOLEX
+            </SocialLogo>
             <WebsiteRights>
               edara © {new Date().getFullYear()} All rights reserved.
             </WebsiteRights>
