@@ -17,6 +17,7 @@ export const InfoWrapper = styled.div`
   max-width: 1100px;
   margin-right: auto;
   margin-left: auto;
+  padding: 0 24px;
   justify-content: center;
 `
 
@@ -51,7 +52,7 @@ export const TextWrapper = styled.div`
 `
 
 export const TopLine = styled.p`
-  color: #01bf71;
+  color: #bf6301;
   font-size: 16px;
   line-height: 16px;
   font-weight: 700;
