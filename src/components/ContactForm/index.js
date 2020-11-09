@@ -10,11 +10,22 @@ import {
   SubmitButton,
   FormH1,
 } from './ContactForm'
+import ErrorMessage from './ErrorMessage'
 
 const ContactForm = ({ id }) => {
-  const { register, handleSubmit, errors } = useForm()
-  const onSubmit = (data) => console.log(data)
-  console.log(errors)
+  // const { register, handleSubmit, errors } = useForm()
+  // const onSubmit = (data) => console.log(data)
+  // console.log(errors)
+
+  const {
+    register,
+    handleSubmit,
+    errors,
+    formState: { isSubmitting },
+  } = useForm()
+  const onSubmit = (data) => {
+    alert(JSON.stringify(data))
+  }
 
   return (
     <FormWrap id={id}>
@@ -24,38 +35,41 @@ const ContactForm = ({ id }) => {
         <Input
           type='text'
           placeholder='First name'
-          name='First name'
-          ref={register({ required: true, maxLength: 80 })}
+          name='firstName'
+          ref={register({ required: true, minLength: 2, maxLength: 80 })}
         />
-        <Label>Last Name: </Label>
+        <ErrorMessage error={errors.firstName} />
 
+        <Label>Last Name: </Label>
         <Input
           type='text'
           placeholder='Last name'
-          name='Last name'
-          ref={register({ required: true, maxLength: 100 })}
+          name='lastName'
+          ref={register({ required: true, minLength: 2, maxLength: 80 })}
         />
-        <Label>Email: </Label>
+        <ErrorMessage error={errors.lastName} />
 
+        <Label>Email: </Label>
         <Input
           type='text'
           placeholder='Email'
-          name='Email'
+          name='email'
           ref={register({ required: true, pattern: /^\S+@\S+$/i })}
         />
-        <Label>Phone: </Label>
+        <ErrorMessage error={errors.email} />
 
+        <Label>Phone:</Label>
         <Input
           type='tel'
-          placeholder='Mobile number'
-          name='Mobile number'
-          ref={register({ required: true, minLength: 6, maxLength: 12 })}
+          placeholder='Phone Number'
+          name='phone'
+          ref={register}
         />
-        <Label>Message: </Label>
 
+        <Label>Message: </Label>
         <Textarea name='Message' ref={register({ required: true })} />
         <br />
-        <SubmitButton type='submit' />
+        <SubmitButton disabled={isSubmitting} type='submit' />
       </Form>
     </FormWrap>
   )
