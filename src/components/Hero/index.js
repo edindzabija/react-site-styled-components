@@ -1,16 +1,16 @@
 import React, { useState } from 'react'
-import Video from '../../videos/video.mp4'
+// import Video from '../../videos/video.mp4'
 import { Button } from '../ButtonElement'
 import {
   ArrowForward,
   ArrowRight,
   HeroBg,
+  HeroBgImage,
   HeroBtnWrapper,
   HeroContainer,
   HeroContent,
   HeroH1,
   HeroP,
-  VideoBg,
 } from './HeroElements'
 
 const Hero = () => {
@@ -24,7 +24,8 @@ const Hero = () => {
     <div>
       <HeroContainer id='home'>
         <HeroBg>
-          <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
+          <HeroBgImage />
+          {/* <VideoBg autoPlay loop muted src={Video} type='video/mp4' /> */}
         </HeroBg>
         <HeroContent>
           <HeroH1>Crypto Shite Made Easy</HeroH1>
