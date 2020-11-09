@@ -10,8 +10,6 @@ import {
   NavMenu,
   NavItem,
   NavLinks,
-  NavBtn,
-  NavBtnLink,
 } from './NavbarElements'
 
 const Navbar = ({ toggle }) => {
@@ -81,13 +79,13 @@ const Navbar = ({ toggle }) => {
                   Contact
                 </NavLinks>
               </NavItem>
-              <NavItem>
+              {/* <NavItem>
                 <NavLinks to='signup'>Sign Up</NavLinks>
-              </NavItem>
+              </NavItem> */}
             </NavMenu>
-            <NavBtn>
+            {/* <NavBtn>
               <NavBtnLink to='/signin'>Sign In</NavBtnLink>
-            </NavBtn>
+            </NavBtn> */}
           </NavbarContainer>
         </Nav>
       </IconContext.Provider>

@@ -11,13 +11,13 @@ import {
   FormH1,
 } from './ContactForm'
 
-const ContactForm = () => {
+const ContactForm = ({ id }) => {
   const { register, handleSubmit, errors } = useForm()
   const onSubmit = (data) => console.log(data)
   console.log(errors)
 
   return (
-    <FormWrap>
+    <FormWrap id={id}>
       <Form onSubmit={handleSubmit(onSubmit)}>
         <FormH1>Get in Touch</FormH1>
         <Label>First Name: </Label>

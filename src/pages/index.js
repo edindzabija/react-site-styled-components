@@ -28,7 +28,7 @@ const Home = () => {
       <Info {...homeObjTwo} />
       <Services />
       <Info {...homeObjThree} />
-      <ContactForm />
+      <ContactForm id='contact' />
       <Footer />
     </>
   )
