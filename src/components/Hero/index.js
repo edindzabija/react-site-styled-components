@@ -5,13 +5,14 @@ import {
   ArrowForward,
   ArrowRight,
   HeroBg,
-  HeroBgImage,
+  // HeroBgImage,
   HeroBtnWrapper,
   HeroContainer,
   HeroContent,
   HeroH1,
   HeroP,
 } from './HeroElements'
+import Particles from 'react-particles-js'
 
 const Hero = () => {
   const [hover, setHover] = useState(false)
@@ -24,7 +25,8 @@ const Hero = () => {
     <div>
       <HeroContainer id='home'>
         <HeroBg>
-          <HeroBgImage />
+          <Particles />
+          {/* <HeroBgImage /> */}
           {/* <VideoBg autoPlay loop muted src={Video} type='video/mp4' /> */}
         </HeroBg>
         <HeroContent>
