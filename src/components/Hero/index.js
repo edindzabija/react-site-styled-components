@@ -24,7 +24,7 @@ const Hero = () => {
     <div>
       <HeroContainer id='home'>
         <HeroBg>
-          <Particles />
+          <Particles style={{ position: 'fixed' }} />
           {/* <HeroBgImage /> */}
           {/* <VideoBg autoPlay loop muted src={Video} type='video/mp4' /> */}
         </HeroBg>
