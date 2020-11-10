@@ -23,11 +23,11 @@ const Hero = () => {
   return (
     <div>
       <HeroContainer id='home'>
-        <HeroBg>
-          <Particles style={{ position: 'fixed' }} />
-          {/* <HeroBgImage /> */}
-          {/* <VideoBg autoPlay loop muted src={Video} type='video/mp4' /> */}
-        </HeroBg>
+        <Particles />
+        {/* <HeroBg>
+          <HeroBgImage />
+          <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
+        </HeroBg> */}
         <HeroContent>
           <HeroH1>Crypto Shite Made Easy</HeroH1>
           <HeroP>Sign up for a new account and start huslin' today</HeroP>
