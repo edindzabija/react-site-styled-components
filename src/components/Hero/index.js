@@ -5,7 +5,6 @@ import {
   ArrowForward,
   ArrowRight,
   HeroBg,
-  // HeroBgImage,
   HeroBtnWrapper,
   HeroContainer,
   HeroContent,
