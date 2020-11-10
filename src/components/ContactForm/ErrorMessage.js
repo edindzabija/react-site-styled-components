@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 const StyledP = styled.p`
-  color: #bf1650;
+  color: #ff0000;
 
   &:before {
     display: inline;

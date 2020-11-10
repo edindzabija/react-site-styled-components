@@ -31,47 +31,53 @@ const ContactForm = ({ id }) => {
     <FormWrap id={id}>
       <Form onSubmit={handleSubmit(onSubmit)}>
         <FormH1>Get in Touch</FormH1>
-        <Label>First Name: </Label>
-        <Input
-          type='text'
-          placeholder='First name'
-          name='firstName'
-          ref={register({ required: true, minLength: 2, maxLength: 80 })}
-        />
-        <ErrorMessage error={errors.firstName} />
-
-        <Label>Last Name: </Label>
-        <Input
-          type='text'
-          placeholder='Last name'
-          name='lastName'
-          ref={register({ required: true, minLength: 2, maxLength: 80 })}
-        />
-        <ErrorMessage error={errors.lastName} />
-
-        <Label>Email: </Label>
-        <Input
-          type='text'
-          placeholder='Email'
-          name='email'
-          ref={register({ required: true, pattern: /^\S+@\S+$/i })}
-        />
-        <ErrorMessage error={errors.email} />
-
-        <Label>Phone:</Label>
-        <Input
-          type='tel'
-          placeholder='Phone Number'
-          name='phone'
-          ref={register}
-        />
-
-        <Label>Message: </Label>
-        <Textarea
-          placeholder='Your message...'
-          name='Message'
-          ref={register({ required: true })}
-        />
+        <Label>
+          First Name:
+          <Input
+            type='text'
+            placeholder='First Name'
+            name='firstName'
+            ref={register({ required: true, minLength: 2, maxLength: 80 })}
+          />
+          <ErrorMessage error={errors.firstName} />
+        </Label>
+        <Label>
+          Last Name:
+          <Input
+            type='text'
+            placeholder='Last Name'
+            name='lastName'
+            ref={register({ required: true, minLength: 2, maxLength: 80 })}
+          />
+          <ErrorMessage error={errors.lastName} />
+        </Label>
+        <Label>
+          Email:
+          <Input
+            type='text'
+            placeholder='Email'
+            name='email'
+            ref={register({ required: true, pattern: /^\S+@\S+$/i })}
+          />
+          <ErrorMessage error={errors.email} />
+        </Label>
+        <Label>
+          Phone:
+          <Input
+            type='tel'
+            placeholder='Phone Number'
+            name='phone'
+            ref={register}
+          />
+        </Label>
+        <Label>
+          Message:
+          <Textarea
+            placeholder='Your Message...'
+            name='Message'
+            ref={register({ required: true })}
+          />
+        </Label>
         <br />
         <SubmitButton disabled={isSubmitting} type='submit' />
       </Form>
