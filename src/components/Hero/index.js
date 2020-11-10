@@ -4,7 +4,6 @@ import { Button } from '../ButtonElement'
 import {
   ArrowForward,
   ArrowRight,
-  HeroBg,
   HeroBtnWrapper,
   HeroContainer,
   HeroContent,
