@@ -18,21 +18,21 @@ const Services = () => {
       <ServicesH1>Our Services</ServicesH1>
       <ServicesWrapper>
         <ServicesCard>
-          <ServicesIcon src={Icon1} />
+          <ServicesIcon src={Icon1} alt='image1' />
           <ServicesH2>Reduce Expenses</ServicesH2>
           <ServicesP>
             We help reduce your fees and increase your overall revenue
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
-          <ServicesIcon src={Icon2} />
+          <ServicesIcon src={Icon2} alt='image2' />
           <ServicesH2>Virtual Offices</ServicesH2>
           <ServicesP>
             Lorem, ipsum dolor sit amet consectetur adipisicing.
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
-          <ServicesIcon src={Icon3} />
+          <ServicesIcon src={Icon3} alt='image3' />
           <ServicesH2>Premium Benefits</ServicesH2>
           <ServicesP>
             Lorem ipsum, dolor sit amet consectetur adipisicing.

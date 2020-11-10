@@ -67,7 +67,11 @@ const ContactForm = ({ id }) => {
         />
 
         <Label>Message: </Label>
-        <Textarea name='Message' ref={register({ required: true })} />
+        <Textarea
+          placeholder='Your message...'
+          name='Message'
+          ref={register({ required: true })}
+        />
         <br />
         <SubmitButton disabled={isSubmitting} type='submit' />
       </Form>
