@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const InfoContainer = styled.section`
   color: #fff;
-  background: ${({ lightBg }) => (lightBg ? '#fff' : '#0A0903')};
+  background: ${({ lightBg }) => (lightBg ? '#fff' : '#000')};
   height: 100vh;
   max-height: 960px;
   padding: 0 24px;

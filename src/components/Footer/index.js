@@ -72,7 +72,7 @@ const Footer = () => {
         <SocialMedia>
           <SocialMediaWrap>
             <SocialLogo to='/' onClick={toggleHome}>
-              LOLEX
+              styledComps!
             </SocialLogo>
             <WebsiteRights>
               Edin Dzabija © {new Date().getFullYear()} All rights reserved.

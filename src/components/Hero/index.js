@@ -10,7 +10,7 @@ import {
   HeroP,
 } from './HeroElements'
 import Particles from 'react-particles-js'
-
+import { particle } from '../../util/particle-config'
 const Hero = () => {
   const [hover, setHover] = useState(false)
 
@@ -21,7 +21,7 @@ const Hero = () => {
   return (
     <div>
       <HeroContainer id='home'>
-        <Particles />
+        <Particles params={particle} />
         <HeroContent>
           <HeroH1>Cryptocurrency Made Easy</HeroH1>
           <HeroP>Sign up for a new account and start earning today!</HeroP>
