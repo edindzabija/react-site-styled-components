@@ -1,10 +1,12 @@
 import styled from 'styled-components'
 
-export const InfoContainer = styled.div`
+export const InfoContainer = styled.section`
   color: #fff;
   background: ${({ lightBg }) => (lightBg ? '#fff' : '#0A0903')};
   height: 100vh;
-  min-height: 800px;
+  max-height: 960px;
+  padding: 0 24px;
+
   @media screen and (max-width: 768px) {
     padding: 100px 24;
   }
@@ -13,12 +15,11 @@ export const InfoContainer = styled.div`
 export const InfoWrapper = styled.div`
   display: grid;
   z-index: 1;
-  height: 860px;
+  height: 100%;
   width: 100%;
   max-width: 1100px;
   margin-right: auto;
   margin-left: auto;
-  /* padding: 0 24px; */
   justify-content: center;
 `
 
@@ -36,14 +37,14 @@ export const InfoRow = styled.div`
 `
 
 export const Column1 = styled.div`
-  margin-bottom: 15px;
-  padding: 0 15px;
+  margin-bottom: 25px;
+  padding: 0 25px;
   grid-area: col1;
 `
 
 export const Column2 = styled.div`
-  margin-bottom: 15px;
-  padding: 0 15px;
+  margin-bottom: 25px;
+  padding: 0 25px;
   grid-area: col2;
 `
 export const TextWrapper = styled.div`
@@ -53,7 +54,7 @@ export const TextWrapper = styled.div`
 `
 
 export const TopLine = styled.p`
-  color: #ff8200;
+  color: ${({ lightBg }) => (lightBg ? '#ac6111' : '#ff8200')};
   font-size: 16px;
   line-height: 16px;
   font-weight: 700;
@@ -62,7 +63,7 @@ export const TopLine = styled.p`
   margin-bottom: 16px;
 `
 
-export const Heading = styled.h1`
+export const Heading = styled.h2`
   margin-bottom: 24px;
   font-size: 48px;
   line-height: 1.1;

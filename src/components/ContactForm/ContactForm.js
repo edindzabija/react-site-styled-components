@@ -80,7 +80,7 @@ export const SubmitButton = styled.input.attrs({
 })`
   cursor: pointer;
   background: #ff8200;
-  color: #fff;
+  color: #0a0903;
   margin-bottom: 0;
   text-transform: uppercase;
   width: 100%;

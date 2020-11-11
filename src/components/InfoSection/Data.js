@@ -1,13 +1,13 @@
-import image1 from '../../images/svg-8.svg'
-import image2 from '../../images/svg-7.svg'
-import image3 from '../../images/svg-4.svg'
+import image1 from '../../images/svg-1.svg'
+import image2 from '../../images/svg-2.svg'
+import image3 from '../../images/svg-3.svg'
 
 export const homeObjOne = {
   id: 'about',
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: 'Premium Shit',
+  topLine: 'Premium Services',
   headline: 'Unlimited Transactions with zero fees',
   description: `Lorem ipsum dolor,
     sit amet consectetur adipisicing elit.
@@ -27,7 +27,7 @@ export const homeObjTwo = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: 'Premium Services',
+  topLine: 'Buy and exchange crypto',
   headline: 'Unlimited Transactions with zero fees',
   description: `Lorem ipsum dolor,
     sit amet consectetur adipisicing elit.
@@ -47,12 +47,9 @@ export const homeObjThree = {
   lightBg: true,
   lightText: false,
   lightTextDesc: false,
-  topLine: 'Premium Shit',
-  headline: 'Unlimited Transactions with zero fees',
-  description: `Lorem ipsum dolor,
-    sit amet consectetur adipisicing elit.
-    Delectus recusandae assumenda neque quis. 
-    Eius veniam voluptas ad laudantium quod!`,
+  topLine: 'Premium support',
+  headline: 'Our support is available 24h every day',
+  description: `We offer you support when you are conquering the art of buying and selling cryptocurrencies, making them worth more.`,
   buttonLabel: 'Get Started',
   imgStart: false,
   img: image3,

@@ -28,8 +28,8 @@ const Hero = () => {
           <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
         </HeroBg> */}
         <HeroContent>
-          <HeroH1>Crypto Shite Made Easy</HeroH1>
-          <HeroP>Sign up for a new account and start huslin' today</HeroP>
+          <HeroH1>Cryptocurrency Made Easy</HeroH1>
+          <HeroP>Sign up for a new account and start earning today!</HeroP>
           <HeroBtnWrapper>
             <Button
               to='signup'
