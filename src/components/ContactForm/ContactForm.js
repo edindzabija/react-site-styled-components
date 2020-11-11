@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 export const FormWrap = styled.div`
+  height: 100%;
   margin: 0 auto;
   padding: 100px 0;
   background-color: #0a0903;
