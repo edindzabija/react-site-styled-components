@@ -35,37 +35,37 @@ const Footer = () => {
           <FooterLinksWrapper>
             <FooterLinkItems>
               <FooterLinkTitle>About Us</FooterLinkTitle>
-              <FooterLink to='/signin'>How it works</FooterLink>
-              <FooterLink to='/signin'>Testimonials</FooterLink>
-              <FooterLink to='/signin'>Careers</FooterLink>
-              <FooterLink to='/signin'>Investors</FooterLink>
-              <FooterLink to='/signin'>Terms of Service</FooterLink>
+              <FooterLink to='/'>How it works</FooterLink>
+              <FooterLink to='/'>Testimonials</FooterLink>
+              <FooterLink to='/'>Careers</FooterLink>
+              <FooterLink to='/'>Investors</FooterLink>
+              <FooterLink to='/'>Terms of Service</FooterLink>
             </FooterLinkItems>
             <FooterLinkItems>
               <FooterLinkTitle>About Us</FooterLinkTitle>
-              <FooterLink to='/signin'>How it works</FooterLink>
-              <FooterLink to='/signin'>Testimonials</FooterLink>
-              <FooterLink to='/signin'>Careers</FooterLink>
-              <FooterLink to='/signin'>Investors</FooterLink>
-              <FooterLink to='/signin'>Terms of Service</FooterLink>
+              <FooterLink to='/'>How it works</FooterLink>
+              <FooterLink to='/'>Testimonials</FooterLink>
+              <FooterLink to='/'>Careers</FooterLink>
+              <FooterLink to='/'>Investors</FooterLink>
+              <FooterLink to='/'>Terms of Service</FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
           <FooterLinksWrapper>
             <FooterLinkItems>
               <FooterLinkTitle>About Us</FooterLinkTitle>
-              <FooterLink to='/signin'>How it works</FooterLink>
-              <FooterLink to='/signin'>Testimonials</FooterLink>
-              <FooterLink to='/signin'>Careers</FooterLink>
-              <FooterLink to='/signin'>Investors</FooterLink>
-              <FooterLink to='/signin'>Terms of Service</FooterLink>
+              <FooterLink to='/'>How it works</FooterLink>
+              <FooterLink to='/'>Testimonials</FooterLink>
+              <FooterLink to='/'>Careers</FooterLink>
+              <FooterLink to='/'>Investors</FooterLink>
+              <FooterLink to='/'>Terms of Service</FooterLink>
             </FooterLinkItems>
             <FooterLinkItems>
               <FooterLinkTitle>About Us</FooterLinkTitle>
-              <FooterLink to='/signin'>How it works</FooterLink>
-              <FooterLink to='/signin'>Testimonials</FooterLink>
-              <FooterLink to='/signin'>Careers</FooterLink>
-              <FooterLink to='/signin'>Investors</FooterLink>
-              <FooterLink to='/signin'>Terms of Service</FooterLink>
+              <FooterLink to='/'>How it works</FooterLink>
+              <FooterLink to='/'>Testimonials</FooterLink>
+              <FooterLink to='/'>Careers</FooterLink>
+              <FooterLink to='/'>Investors</FooterLink>
+              <FooterLink to='/'>Terms of Service</FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
         </FooterLinksContainer>
@@ -75,7 +75,7 @@ const Footer = () => {
               LOLEX
             </SocialLogo>
             <WebsiteRights>
-              edara © {new Date().getFullYear()} All rights reserved.
+              Edin Dzabija © {new Date().getFullYear()} All rights reserved.
             </WebsiteRights>
             <SocialIcons>
               <SocialIconLink href='/' target='_blank' aria-label='Facebook'>

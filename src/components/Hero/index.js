@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-// import Video from '../../videos/video.mp4'
 import { Button } from '../ButtonElement'
 import {
   ArrowForward,
@@ -23,10 +22,6 @@ const Hero = () => {
     <div>
       <HeroContainer id='home'>
         <Particles />
-        {/* <HeroBg>
-          <HeroBgImage />
-          <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
-        </HeroBg> */}
         <HeroContent>
           <HeroH1>Cryptocurrency Made Easy</HeroH1>
           <HeroP>Sign up for a new account and start earning today!</HeroP>
