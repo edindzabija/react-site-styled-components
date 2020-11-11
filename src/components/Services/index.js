@@ -26,16 +26,18 @@ const Services = () => {
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon2} alt='image2' />
-          <ServicesH2>Virtual Offices</ServicesH2>
+          <ServicesH2>Easy to Use</ServicesH2>
           <ServicesP>
-            Lorem, ipsum dolor sit amet consectetur adipisicing.
+            We offer you spectrum of services that you can use simple and
+            instinctively. For those services we have conscription of quality.
           </ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon3} alt='image3' />
           <ServicesH2>Premium Benefits</ServicesH2>
           <ServicesP>
-            Lorem ipsum, dolor sit amet consectetur adipisicing.
+            We offer you spectrum of services that you can use simple and
+            instinctively. For those services we have conscription of quality.
           </ServicesP>
         </ServicesCard>
       </ServicesWrapper>
