@@ -5,7 +5,7 @@ export const InfoContainer = styled.section`
   background: ${({ lightBg }) => (lightBg ? '#fff' : '#000')};
   height: 100vh;
   max-height: 960px;
-  padding: 0 24px;
+  padding: 0 15px;
 
   @media screen and (max-width: 768px) {
     padding: 100px 24;
