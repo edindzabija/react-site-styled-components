@@ -8,7 +8,7 @@ export const particle = {
       },
     },
     color: {
-      value: '#78390c',
+      value: '#703409',
     },
     shape: {
       type: 'triangle',
@@ -26,7 +26,7 @@ export const particle = {
       },
     },
     opacity: {
-      value: 0.49716301422833176,
+      value: 0.6,
       random: true,
       anim: {
         enable: false,
@@ -49,7 +49,7 @@ export const particle = {
       enable: true,
       distance: 150,
       color: '#c05012',
-      opacity: 0.20042650760819036,
+      opacity: 0.2,
       width: 1,
     },
     move: {
