@@ -4,14 +4,14 @@ export const particle = {
       value: 60,
       density: {
         enable: true,
-        value_area: 800,
+        value_area: 1000,
       },
     },
     color: {
-      value: '#ffffff',
+      value: ['#344455', '#ffffff'],
     },
     shape: {
-      type: 'circle',
+      type: 'edge',
       stroke: {
         width: 0,
         color: '#000000',
@@ -26,7 +26,7 @@ export const particle = {
       },
     },
     opacity: {
-      value: 0.8,
+      value: 0.5,
       random: false,
       anim: {
         enable: false,
@@ -36,7 +36,7 @@ export const particle = {
       },
     },
     size: {
-      value: 3,
+      value: 4,
       random: true,
       anim: {
         enable: false,
@@ -47,9 +47,9 @@ export const particle = {
     },
     line_linked: {
       enable: true,
-      distance: 160,
-      color: '#ffffff',
-      opacity: 0.4,
+      distance: 50,
+      color: '#fff',
+      opacity: 0.5,
       width: 1,
     },
     move: {
@@ -64,45 +64,6 @@ export const particle = {
         enable: false,
         rotateX: 600,
         rotateY: 1200,
-      },
-    },
-  },
-  interactivity: {
-    detect_on: 'canvas',
-    events: {
-      onhover: {
-        enable: true,
-        mode: 'grab',
-      },
-      onclick: {
-        enable: true,
-        mode: 'push',
-      },
-      resize: true,
-    },
-    modes: {
-      grab: {
-        distance: 140,
-        line_linked: {
-          opacity: 1,
-        },
-      },
-      bubble: {
-        distance: 400,
-        size: 40,
-        duration: 2,
-        opacity: 8,
-        speed: 3,
-      },
-      repulse: {
-        distance: 200,
-        duration: 0.4,
-      },
-      push: {
-        particles_nb: 4,
-      },
-      remove: {
-        particles_nb: 2,
       },
     },
   },
