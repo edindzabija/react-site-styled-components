@@ -13,10 +13,6 @@ import {
 import ErrorMessage from './ErrorMessage'
 
 const ContactForm = ({ id }) => {
-  // const { register, handleSubmit, errors } = useForm()
-  // const onSubmit = (data) => console.log(data)
-  // console.log(errors)
-
   const {
     register,
     handleSubmit,

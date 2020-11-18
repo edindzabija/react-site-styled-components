@@ -1,33 +1,33 @@
 export const particle = {
   particles: {
     number: {
-      value: 40,
+      value: 60,
       density: {
         enable: true,
         value_area: 800,
       },
     },
     color: {
-      value: '#703409',
+      value: '#ffffff',
     },
     shape: {
-      type: 'triangle',
+      type: 'circle',
       stroke: {
         width: 0,
-        color: '#ffffff',
+        color: '#000000',
       },
       polygon: {
         nb_sides: 5,
       },
       image: {
-        src: '',
+        src: 'img/github.svg',
         width: 100,
         height: 100,
       },
     },
     opacity: {
-      value: 0.6,
-      random: true,
+      value: 0.8,
+      random: false,
       anim: {
         enable: false,
         speed: 1,
@@ -36,7 +36,7 @@ export const particle = {
       },
     },
     size: {
-      value: 2,
+      value: 3,
       random: true,
       anim: {
         enable: false,
@@ -47,14 +47,14 @@ export const particle = {
     },
     line_linked: {
       enable: true,
-      distance: 150,
-      color: '#c05012',
-      opacity: 0.2,
+      distance: 160,
+      color: '#ffffff',
+      opacity: 0.4,
       width: 1,
     },
     move: {
       enable: true,
-      speed: 6,
+      speed: 3,
       direction: 'none',
       random: false,
       straight: false,
@@ -71,18 +71,18 @@ export const particle = {
     detect_on: 'canvas',
     events: {
       onhover: {
-        enable: false,
-        mode: 'repulse',
+        enable: true,
+        mode: 'grab',
       },
       onclick: {
-        enable: false,
+        enable: true,
         mode: 'push',
       },
       resize: true,
     },
     modes: {
       grab: {
-        distance: 400,
+        distance: 140,
         line_linked: {
           opacity: 1,
         },
@@ -107,4 +107,4 @@ export const particle = {
     },
   },
   retina_detect: true,
-}
+};
