@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import {
   CloseIcon,
   Icon,
@@ -8,7 +8,7 @@ import {
   SidebarWrapper,
   SideBtnWrap,
   SidebarMenu,
-} from './SidebarElements'
+} from './SidebarElements';
 
 const Sidebar = ({ isOpen, toggle }) => {
   return (
@@ -27,18 +27,24 @@ const Sidebar = ({ isOpen, toggle }) => {
           <SidebarLink exact='true' to='contact' onClick={toggle}>
             Contact
           </SidebarLink>
-          <SidebarLink to='signup' onClick={toggle}>
+          <SidebarLink
+            onClick={() => alert('This feature is not yet implemented!')}
+            to='signup'
+          >
             Sign Up
           </SidebarLink>
         </SidebarMenu>
         <SideBtnWrap>
-          <SidebarRoute to='/' onClick={() => alert('Not yet')}>
+          <SidebarRoute
+            to='/'
+            onClick={() => alert('This feature is not yet implemented!')}
+          >
             Sign In
           </SidebarRoute>
         </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>
-  )
-}
+  );
+};
 
-export default Sidebar
+export default Sidebar;
