@@ -1,8 +1,8 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from 'react';
+import styled from 'styled-components';
 
 const StyledP = styled.p`
-  color: #ff0000;
+  color: #ff8200;
 
   &:before {
     display: inline;
@@ -24,25 +24,25 @@ const StyledP = styled.p`
       opacity: 1;
     }
   }
-`
+`;
 
 const ErrorMessage = ({ error }) => {
   if (error) {
     switch (error.type) {
       case 'required':
-        return <StyledP>This field is required</StyledP>
+        return <StyledP>This field is required</StyledP>;
       case 'minLength':
-        return <StyledP>Minmium 2 characters</StyledP>
+        return <StyledP>Minmium 2 characters</StyledP>;
       case 'maxLength':
-        return <StyledP>Maximum 80 characters allowed</StyledP>
+        return <StyledP>Maximum 80 characters allowed</StyledP>;
       case 'pattern':
-        return <StyledP>Enter a valid email address</StyledP>
+        return <StyledP>Enter a valid email address</StyledP>;
       default:
-        return null
+        return null;
     }
   }
 
-  return null
-}
+  return null;
+};
 
-export default ErrorMessage
+export default ErrorMessage;
